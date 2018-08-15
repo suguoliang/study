@@ -1,0 +1,247 @@
+[2018-08-15T10:01:57,101][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-15T10:02:01,634][INFO ][logstash.pipeline        ] Pipeline has terminated {:pipeline_id=>"main", :thread=>"#<Thread:0x7cc1c36f@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T10:19:31,489][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/usr/logstash/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-15T10:19:31,495][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/usr/logstash/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-15T10:19:32,067][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-15T10:19:32,344][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-15T10:19:32,600][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-15T10:19:33,466][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>1, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-15T10:19:33,623][INFO ][logstash.inputs.tcp      ] Starting tcp input listener {:address=>"localhost:4506", :ssl_enable=>"false"}
+[2018-08-15T10:19:34,060][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x3dc67b7b@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T10:19:34,079][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-15T10:20:28,958][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 10:20:28.597
+[2018-08-15T10:20:29,001][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 10:20:28.601
+[2018-08-15T10:34:59,722][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-15T10:35:04,124][INFO ][logstash.pipeline        ] Pipeline has terminated {:pipeline_id=>"main", :thread=>"#<Thread:0x3dc67b7b@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T10:36:34,820][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/usr/logstash/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-15T10:36:34,827][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/usr/logstash/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-15T10:36:35,565][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-15T10:36:36,010][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-15T10:36:36,351][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-15T10:36:37,380][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>1, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-15T10:36:37,480][INFO ][logstash.inputs.tcp      ] Starting tcp input listener {:address=>"localhost:4506", :ssl_enable=>"false"}
+[2018-08-15T10:36:37,870][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x59ecc823@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 sleep>"}
+[2018-08-15T10:36:37,880][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-15T11:04:46,850][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-15T11:04:51,246][INFO ][logstash.pipeline        ] Pipeline has terminated {:pipeline_id=>"main", :thread=>"#<Thread:0x59ecc823@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T11:11:02,570][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/usr/logstash/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-15T11:11:02,576][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/usr/logstash/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-15T11:11:03,453][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-15T11:11:03,947][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-15T11:11:04,221][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-15T11:11:05,485][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>1, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-15T11:11:05,646][INFO ][logstash.inputs.tcp      ] Starting tcp input listener {:address=>"localhost:4506", :ssl_enable=>"false"}
+[2018-08-15T11:11:06,242][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x597dcea2@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T11:11:06,324][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-15T11:12:15,129][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-15T11:12:17,462][INFO ][logstash.pipeline        ] Pipeline has terminated {:pipeline_id=>"main", :thread=>"#<Thread:0x597dcea2@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T11:16:14,523][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/usr/logstash/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-15T11:16:14,564][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/usr/logstash/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-15T11:16:15,505][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-15T11:16:15,938][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-15T11:16:16,310][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-15T11:16:17,454][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>1, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-15T11:16:18,090][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://10.133.0.21:9200/]}}
+[2018-08-15T11:16:18,096][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://10.133.0.21:9200/, :path=>"/"}
+[2018-08-15T11:16:18,351][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://10.133.0.21:9200/"}
+[2018-08-15T11:16:18,494][INFO ][logstash.outputs.elasticsearch] ES Output version determined {:es_version=>6}
+[2018-08-15T11:16:18,494][WARN ][logstash.outputs.elasticsearch] Detected a 6.x and above cluster: the `type` event field won't be used to determine the document _type {:es_version=>6}
+[2018-08-15T11:16:18,551][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2018-08-15T11:16:18,554][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>60001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date"}, "@version"=>{"type"=>"keyword"}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2018-08-15T11:16:18,578][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//10.133.0.21:9200"]}
+[2018-08-15T11:16:18,647][INFO ][logstash.inputs.tcp      ] Starting tcp input listener {:address=>"localhost:4506", :ssl_enable=>"false"}
+[2018-08-15T11:16:19,121][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x4ea8c6d5@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T11:16:19,155][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-15T11:16:25,692][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:15:56.050
+[2018-08-15T11:16:25,713][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:15:56.114
+[2018-08-15T11:16:25,715][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:15:56.444
+[2018-08-15T11:16:25,715][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:02.390
+[2018-08-15T11:16:25,716][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:02.550
+[2018-08-15T11:16:25,716][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:02.550
+[2018-08-15T11:16:25,717][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:03.116
+[2018-08-15T11:16:25,717][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:03.117
+[2018-08-15T11:16:25,717][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:03.638
+[2018-08-15T11:16:25,718][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:03.709
+[2018-08-15T11:16:25,718][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:03.710
+[2018-08-15T11:16:25,719][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:03.710
+[2018-08-15T11:16:25,719][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:03.710
+[2018-08-15T11:16:25,719][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:05.304
+[2018-08-15T11:16:25,720][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:05.649
+[2018-08-15T11:16:25,720][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:05.654
+[2018-08-15T11:16:25,721][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:05.655
+[2018-08-15T11:16:25,721][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:05.839
+[2018-08-15T11:16:25,722][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:05.839
+[2018-08-15T11:16:25,722][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:06.107
+[2018-08-15T11:16:25,723][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:06.719
+[2018-08-15T11:16:25,723][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:07.295
+[2018-08-15T11:16:25,745][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:07.313
+[2018-08-15T11:16:25,746][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:24.276
+[2018-08-15T11:16:25,746][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:24.276
+[2018-08-15T11:16:25,747][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:24.325
+[2018-08-15T11:16:25,747][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:16:24.434
+[2018-08-15T11:17:50,487][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:17:50.484
+[2018-08-15T11:22:58,601][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-15T11:23:03,650][WARN ][logstash.runner          ] Received shutdown signal, but pipeline is still waiting for in-flight events
+to be processed. Sending another ^C will force quit Logstash, but this may cause
+data loss.
+[2018-08-15T11:23:03,732][WARN ][logstash.shutdownwatcher ] {"inflight_count"=>0, "stalling_thread_info"=>{}}
+[2018-08-15T11:23:03,735][ERROR][logstash.shutdownwatcher ] The shutdown process appears to be stalled due to busy or blocked plugins. Check the logs for more information.
+[2018-08-15T11:23:04,034][INFO ][logstash.pipeline        ] Pipeline has terminated {:pipeline_id=>"main", :thread=>"#<Thread:0x4ea8c6d5@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T11:24:49,510][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/usr/logstash/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-15T11:24:49,543][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/usr/logstash/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-15T11:24:50,384][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-15T11:24:50,803][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-15T11:24:51,078][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-15T11:24:52,143][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>1, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-15T11:24:52,638][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://10.133.0.21:9200/]}}
+[2018-08-15T11:24:52,641][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://10.133.0.21:9200/, :path=>"/"}
+[2018-08-15T11:24:52,979][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://10.133.0.21:9200/"}
+[2018-08-15T11:24:53,131][INFO ][logstash.outputs.elasticsearch] ES Output version determined {:es_version=>6}
+[2018-08-15T11:24:53,131][WARN ][logstash.outputs.elasticsearch] Detected a 6.x and above cluster: the `type` event field won't be used to determine the document _type {:es_version=>6}
+[2018-08-15T11:24:53,191][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2018-08-15T11:24:53,194][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>60001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date"}, "@version"=>{"type"=>"keyword"}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2018-08-15T11:24:53,210][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//10.133.0.21:9200"]}
+[2018-08-15T11:24:53,284][INFO ][logstash.inputs.tcp      ] Starting tcp input listener {:address=>"localhost:4506", :ssl_enable=>"false"}
+[2018-08-15T11:24:53,751][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x56fecb9d@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 sleep>"}
+[2018-08-15T11:24:53,781][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-15T11:25:04,796][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:04.532
+[2018-08-15T11:25:04,825][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:04.534
+[2018-08-15T11:25:14,201][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:14.185
+[2018-08-15T11:25:14,201][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:14.188
+[2018-08-15T11:25:14,532][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:14.525
+[2018-08-15T11:25:18,265][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:18.256
+[2018-08-15T11:25:18,407][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:18.366
+[2018-08-15T11:25:18,408][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:18.404
+[2018-08-15T11:25:18,756][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:18.747
+[2018-08-15T11:25:18,757][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:18.747
+[2018-08-15T11:25:19,314][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:19.306
+[2018-08-15T11:25:19,352][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:19.338
+[2018-08-15T11:25:19,353][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:19.338
+[2018-08-15T11:25:19,354][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:19.339
+[2018-08-15T11:25:19,355][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:19.339
+[2018-08-15T11:25:20,361][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:20.348
+[2018-08-15T11:25:20,657][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:20.655
+[2018-08-15T11:25:20,734][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:20.721
+[2018-08-15T11:25:20,735][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:20.722
+[2018-08-15T11:25:20,970][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:20.965
+[2018-08-15T11:25:20,970][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:20.965
+[2018-08-15T11:25:21,341][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:21.321
+[2018-08-15T11:25:22,084][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:22.074
+[2018-08-15T11:25:22,462][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:22.459
+[2018-08-15T11:25:22,470][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:25:22.468
+[2018-08-15T11:28:03,439][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:28:03.433
+[2018-08-15T11:28:03,441][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:28:03.434
+[2018-08-15T11:29:06,991][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:06.938
+[2018-08-15T11:29:07,006][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:06.940
+[2018-08-15T11:29:07,242][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:07.237
+[2018-08-15T11:29:10,320][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:10.318
+[2018-08-15T11:29:10,487][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:10.485
+[2018-08-15T11:29:10,488][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:10.485
+[2018-08-15T11:29:10,840][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:10.830
+[2018-08-15T11:29:10,841][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:10.830
+[2018-08-15T11:29:11,261][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:11.255
+[2018-08-15T11:29:11,302][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:11.289
+[2018-08-15T11:29:11,303][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:11.290
+[2018-08-15T11:29:11,303][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:11.290
+[2018-08-15T11:29:11,304][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:11.290
+[2018-08-15T11:29:12,304][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:12.293
+[2018-08-15T11:29:12,626][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:12.572
+[2018-08-15T11:29:12,626][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:12.615
+[2018-08-15T11:29:12,627][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:12.615
+[2018-08-15T11:29:12,729][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:12.713
+[2018-08-15T11:29:12,730][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:12.713
+[2018-08-15T11:29:12,899][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:12.890
+[2018-08-15T11:29:13,377][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:13.362
+[2018-08-15T11:29:13,624][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:13.621
+[2018-08-15T11:29:13,650][WARN ][org.logstash.Event       ] Error parsing @timestamp string value=2018-08-15 11:29:13.630
+[2018-08-15T11:29:50,438][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-15T11:29:55,443][WARN ][logstash.runner          ] Received shutdown signal, but pipeline is still waiting for in-flight events
+to be processed. Sending another ^C will force quit Logstash, but this may cause
+data loss.
+[2018-08-15T11:29:55,519][WARN ][logstash.shutdownwatcher ] {"inflight_count"=>0, "stalling_thread_info"=>{}}
+[2018-08-15T11:29:55,521][ERROR][logstash.shutdownwatcher ] The shutdown process appears to be stalled due to busy or blocked plugins. Check the logs for more information.
+[2018-08-15T11:29:55,691][INFO ][logstash.pipeline        ] Pipeline has terminated {:pipeline_id=>"main", :thread=>"#<Thread:0x56fecb9d@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T11:36:50,406][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/usr/logstash/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-15T11:36:50,412][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/usr/logstash/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-15T11:36:51,133][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-15T11:36:51,470][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-15T11:36:51,857][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-15T11:36:52,925][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>1, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-15T11:36:53,396][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://10.133.0.21:9200/]}}
+[2018-08-15T11:36:53,410][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://10.133.0.21:9200/, :path=>"/"}
+[2018-08-15T11:36:53,675][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://10.133.0.21:9200/"}
+[2018-08-15T11:36:53,803][INFO ][logstash.outputs.elasticsearch] ES Output version determined {:es_version=>6}
+[2018-08-15T11:36:53,804][WARN ][logstash.outputs.elasticsearch] Detected a 6.x and above cluster: the `type` event field won't be used to determine the document _type {:es_version=>6}
+[2018-08-15T11:36:53,859][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2018-08-15T11:36:53,863][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>60001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date"}, "@version"=>{"type"=>"keyword"}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2018-08-15T11:36:53,900][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//10.133.0.21:9200"]}
+[2018-08-15T11:36:54,032][INFO ][logstash.inputs.tcp      ] Starting tcp input listener {:address=>"localhost:4506", :ssl_enable=>"false"}
+[2018-08-15T11:36:54,498][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x4c8d23e8@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T11:36:54,528][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-15T11:39:01,551][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-15T11:39:06,061][INFO ][logstash.pipeline        ] Pipeline has terminated {:pipeline_id=>"main", :thread=>"#<Thread:0x4c8d23e8@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T11:44:06,053][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/usr/logstash/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-15T11:44:06,083][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/usr/logstash/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-15T11:44:07,047][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-15T11:44:07,477][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-15T11:44:07,887][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-15T11:44:08,965][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>1, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-15T11:44:09,470][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://10.133.0.21:9200/]}}
+[2018-08-15T11:44:09,475][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://10.133.0.21:9200/, :path=>"/"}
+[2018-08-15T11:44:09,708][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://10.133.0.21:9200/"}
+[2018-08-15T11:44:09,825][INFO ][logstash.outputs.elasticsearch] ES Output version determined {:es_version=>6}
+[2018-08-15T11:44:09,825][WARN ][logstash.outputs.elasticsearch] Detected a 6.x and above cluster: the `type` event field won't be used to determine the document _type {:es_version=>6}
+[2018-08-15T11:44:09,880][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2018-08-15T11:44:09,883][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>60001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date"}, "@version"=>{"type"=>"keyword"}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2018-08-15T11:44:09,911][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//10.133.0.21:9200"]}
+[2018-08-15T11:44:09,989][INFO ][logstash.inputs.tcp      ] Starting tcp input listener {:address=>"localhost:4506", :ssl_enable=>"false"}
+[2018-08-15T11:44:10,415][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x73b30969@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T11:44:10,430][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-15T11:45:17,479][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-15T11:45:22,511][WARN ][logstash.runner          ] Received shutdown signal, but pipeline is still waiting for in-flight events
+to be processed. Sending another ^C will force quit Logstash, but this may cause
+data loss.
+[2018-08-15T11:45:22,571][WARN ][logstash.shutdownwatcher ] {"inflight_count"=>0, "stalling_thread_info"=>{}}
+[2018-08-15T11:45:22,574][ERROR][logstash.shutdownwatcher ] The shutdown process appears to be stalled due to busy or blocked plugins. Check the logs for more information.
+[2018-08-15T11:45:22,969][INFO ][logstash.pipeline        ] Pipeline has terminated {:pipeline_id=>"main", :thread=>"#<Thread:0x73b30969@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T11:45:55,504][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/usr/logstash/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-15T11:45:55,509][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/usr/logstash/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-15T11:45:56,101][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-15T11:45:56,388][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-15T11:45:56,596][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-15T11:45:57,562][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>1, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-15T11:45:57,967][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://10.133.0.21:9200/]}}
+[2018-08-15T11:45:57,970][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://10.133.0.21:9200/, :path=>"/"}
+[2018-08-15T11:45:58,214][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://10.133.0.21:9200/"}
+[2018-08-15T11:45:58,338][INFO ][logstash.outputs.elasticsearch] ES Output version determined {:es_version=>6}
+[2018-08-15T11:45:58,339][WARN ][logstash.outputs.elasticsearch] Detected a 6.x and above cluster: the `type` event field won't be used to determine the document _type {:es_version=>6}
+[2018-08-15T11:45:58,391][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2018-08-15T11:45:58,393][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>60001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date"}, "@version"=>{"type"=>"keyword"}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2018-08-15T11:45:58,403][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//10.133.0.21:9200"]}
+[2018-08-15T11:45:58,472][INFO ][logstash.inputs.tcp      ] Starting tcp input listener {:address=>"localhost:4506", :ssl_enable=>"false"}
+[2018-08-15T11:45:58,898][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x870d1b3@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T11:45:58,918][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
+[2018-08-15T14:06:07,144][WARN ][logstash.runner          ] SIGINT received. Shutting down.
+[2018-08-15T14:06:12,165][WARN ][logstash.runner          ] Received shutdown signal, but pipeline is still waiting for in-flight events
+to be processed. Sending another ^C will force quit Logstash, but this may cause
+data loss.
+[2018-08-15T14:06:12,239][WARN ][logstash.shutdownwatcher ] {"inflight_count"=>0, "stalling_thread_info"=>{}}
+[2018-08-15T14:06:12,242][ERROR][logstash.shutdownwatcher ] The shutdown process appears to be stalled due to busy or blocked plugins. Check the logs for more information.
+[2018-08-15T14:06:12,425][INFO ][logstash.pipeline        ] Pipeline has terminated {:pipeline_id=>"main", :thread=>"#<Thread:0x870d1b3@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T14:07:53,972][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"fb_apache", :directory=>"/usr/logstash/logstash-6.2.4/modules/fb_apache/configuration"}
+[2018-08-15T14:07:54,000][INFO ][logstash.modules.scaffold] Initializing module {:module_name=>"netflow", :directory=>"/usr/logstash/logstash-6.2.4/modules/netflow/configuration"}
+[2018-08-15T14:07:54,982][WARN ][logstash.config.source.multilocal] Ignoring the 'pipelines.yml' file because modules or command line options are specified
+[2018-08-15T14:07:55,544][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"6.2.4"}
+[2018-08-15T14:07:55,932][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600}
+[2018-08-15T14:07:57,103][INFO ][logstash.pipeline        ] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>1, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50}
+[2018-08-15T14:07:57,614][INFO ][logstash.outputs.elasticsearch] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://10.133.0.21:9200/]}}
+[2018-08-15T14:07:57,620][INFO ][logstash.outputs.elasticsearch] Running health check to see if an Elasticsearch connection is working {:healthcheck_url=>http://10.133.0.21:9200/, :path=>"/"}
+[2018-08-15T14:07:57,861][WARN ][logstash.outputs.elasticsearch] Restored connection to ES instance {:url=>"http://10.133.0.21:9200/"}
+[2018-08-15T14:07:57,986][INFO ][logstash.outputs.elasticsearch] ES Output version determined {:es_version=>6}
+[2018-08-15T14:07:57,987][WARN ][logstash.outputs.elasticsearch] Detected a 6.x and above cluster: the `type` event field won't be used to determine the document _type {:es_version=>6}
+[2018-08-15T14:07:58,038][INFO ][logstash.outputs.elasticsearch] Using mapping template from {:path=>nil}
+[2018-08-15T14:07:58,041][INFO ][logstash.outputs.elasticsearch] Attempting to install template {:manage_template=>{"template"=>"logstash-*", "version"=>60001, "settings"=>{"index.refresh_interval"=>"5s"}, "mappings"=>{"_default_"=>{"dynamic_templates"=>[{"message_field"=>{"path_match"=>"message", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false}}}, {"string_fields"=>{"match"=>"*", "match_mapping_type"=>"string", "mapping"=>{"type"=>"text", "norms"=>false, "fields"=>{"keyword"=>{"type"=>"keyword", "ignore_above"=>256}}}}}], "properties"=>{"@timestamp"=>{"type"=>"date"}, "@version"=>{"type"=>"keyword"}, "geoip"=>{"dynamic"=>true, "properties"=>{"ip"=>{"type"=>"ip"}, "location"=>{"type"=>"geo_point"}, "latitude"=>{"type"=>"half_float"}, "longitude"=>{"type"=>"half_float"}}}}}}}}
+[2018-08-15T14:07:58,072][INFO ][logstash.outputs.elasticsearch] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["//10.133.0.21:9200"]}
+[2018-08-15T14:07:58,138][INFO ][logstash.inputs.tcp      ] Starting tcp input listener {:address=>"localhost:4506", :ssl_enable=>"false"}
+[2018-08-15T14:07:58,539][INFO ][logstash.pipeline        ] Pipeline started successfully {:pipeline_id=>"main", :thread=>"#<Thread:0x7658b2d5@/usr/logstash/logstash-6.2.4/logstash-core/lib/logstash/pipeline.rb:247 run>"}
+[2018-08-15T14:07:58,619][INFO ][logstash.agent           ] Pipelines running {:count=>1, :pipelines=>["main"]}
